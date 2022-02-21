@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		397CA5451FF0468057053688 /* Pods-JailBreakDetector_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JailBreakDetector_Example.debug.xcconfig"; path = "Target Support Files/Pods-JailBreakDetector_Example/Pods-JailBreakDetector_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		465299F3CA4D226591F2C9F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		465299F3CA4D226591F2C9F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4F8264598F15F3D0AD95AC9E /* Pods-JailBreakDetector_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JailBreakDetector_Example.release.xcconfig"; path = "Target Support Files/Pods-JailBreakDetector_Example/Pods-JailBreakDetector_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JailBreakDetector_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JailBreakDetector_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,9 +41,9 @@
 		607FACE51AFB9204008FA782 /* JailBreakDetector_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JailBreakDetector_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7E5E76D55D9D04B7B1A2AFDE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7E5E76D55D9D04B7B1A2AFDE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		97D99BDB3AF646EFC14DB03E /* Pods_JailBreakDetector_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JailBreakDetector_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E9779A131747BD2F7D4A213 /* JailBreakDetector.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JailBreakDetector.podspec; path = ../JailBreakDetector.podspec; sourceTree = "<group>"; };
+		9E9779A131747BD2F7D4A213 /* JailBreakDetector.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JailBreakDetector.podspec; path = ../JailBreakDetector.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C6FEAC4ED252C69B2FF117D7 /* Pods-JailBreakDetector_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JailBreakDetector_Tests.release.xcconfig"; path = "Target Support Files/Pods-JailBreakDetector_Tests/Pods-JailBreakDetector_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E25A22EF8535CEF096635007 /* Pods_JailBreakDetector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JailBreakDetector_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4331F0F1AE796771AFE38C /* Pods-JailBreakDetector_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JailBreakDetector_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JailBreakDetector_Tests/Pods-JailBreakDetector_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,7 +86,6 @@
 				FA4331F0F1AE796771AFE38C /* Pods-JailBreakDetector_Tests.debug.xcconfig */,
 				C6FEAC4ED252C69B2FF117D7 /* Pods-JailBreakDetector_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

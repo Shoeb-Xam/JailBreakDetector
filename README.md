@@ -1,6 +1,6 @@
 # JailBreakDetector
 
-[![CI Status](https://img.shields.io/travis/shoeb-curogram/JailBreakDetector.svg?style=flat)](https://travis-ci.org/shoeb-curogram/JailBreakDetector)
+[![CI Status](https://img.shields.io/travis/Shoeb-Xam/JailBreakDetector.svg?style=flat)](https://travis-ci.org/Shoeb-Xam/JailBreakDetector)
 [![Version](https://img.shields.io/cocoapods/v/JailBreakDetector.svg?style=flat)](https://cocoapods.org/pods/JailBreakDetector)
 [![License](https://img.shields.io/cocoapods/l/JailBreakDetector.svg?style=flat)](https://cocoapods.org/pods/JailBreakDetector)
 [![Platform](https://img.shields.io/cocoapods/p/JailBreakDetector.svg?style=flat)](https://cocoapods.org/pods/JailBreakDetector)
@@ -22,7 +22,7 @@ pod 'JailBreakDetector'
 
 ## Author
 
-shoeb-curogram, shoeb@xam.com.au
+Shoeb-Xam, shoeb@xam.com.au
 
 ## License
 

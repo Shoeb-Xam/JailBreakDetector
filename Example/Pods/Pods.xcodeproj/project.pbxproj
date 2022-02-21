@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02CE1608B69A17335E5A9AAD5E7AA180 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6F449032CE879F7F57257775C4D34448 /* Pods-JailBreakDetector_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B4A36E2AF1C47281CB93976E4810E6 /* Pods-JailBreakDetector_Tests-dummy.m */; };
+		724A56FC27C37B2C00D7E198 /* JailBreakDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724A56FB27C37B2C00D7E198 /* JailBreakDetector.swift */; };
+		724A570227C382DC00D7E198 /* iOSSecurityChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724A570027C382DB00D7E198 /* iOSSecurityChecker.swift */; };
+		724A570327C382DC00D7E198 /* EmulatorDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724A570127C382DC00D7E198 /* EmulatorDetector.swift */; };
+		8B4F4177E36DD6996135A40FFB863820 /* Pods-JailBreakDetector_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCF88CA2770F32AA5E0E162D81BF08FC /* Pods-JailBreakDetector_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D21C96527E8E081EC3F92923C17F16E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D55E1F053A5D3C932D2851FC2DA07AE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DDDE5EB510A396F22DE0AE9172EC2CE4 /* Pods-JailBreakDetector_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72686223877EFF8358820ED6B7A46D6C /* Pods-JailBreakDetector_Example-dummy.m */; };
+		E2F8D994B290C170DFCB190F58C71E75 /* JailBreakDetector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9770438FDC415749EBF662077EE4E8E9 /* JailBreakDetector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5D0F256A10DB047FD7280BA1DC5116E /* Pods-JailBreakDetector_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A9B11AC8F9ACCBA3597E78EC38F476C /* Pods-JailBreakDetector_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF4441B1F0B43A6CBA5E5BBD860DD243 /* JailBreakDetector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E19497BCAB9F9A34A96FD26DEF6DA56 /* JailBreakDetector-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3C95B5E974574D99B8A03044881A0F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15D1333EE173EAAC6F6833C984011833;
+			remoteInfo = "Pods-JailBreakDetector_Example";
+		};
+		DC3A56DE1F1A61A722AE682397B1D8F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2B0B8D6CB5F4D02E341E9374D4841C9;
+			remoteInfo = JailBreakDetector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08B680E3DF2C00F1BCB94A2C8412BD53 /* JailBreakDetector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JailBreakDetector.release.xcconfig; sourceTree = "<group>"; };
+		1CDEFE93D912494846B67B74D30709FB /* JailBreakDetector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JailBreakDetector-prefix.pch"; sourceTree = "<group>"; };
+		24EEFCC2ECA6E0466E33A4F198B54AE5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		467B890C5506E22C1132BCBE86D04716 /* JailBreakDetector.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JailBreakDetector.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		573CF20F2F07D17A3324EA440059E80F /* Pods-JailBreakDetector_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JailBreakDetector_Example.modulemap"; sourceTree = "<group>"; };
+		5E19497BCAB9F9A34A96FD26DEF6DA56 /* JailBreakDetector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JailBreakDetector-dummy.m"; sourceTree = "<group>"; };
+		648928DBC865790C23AE7B685401CA22 /* Pods-JailBreakDetector_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JailBreakDetector_Tests"; path = Pods_JailBreakDetector_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		652C0634271DD048122A64B52A8F3F11 /* JailBreakDetector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JailBreakDetector.modulemap; sourceTree = "<group>"; };
+		724A56FB27C37B2C00D7E198 /* JailBreakDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JailBreakDetector.swift; sourceTree = "<group>"; };
+		724A570027C382DB00D7E198 /* iOSSecurityChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSSecurityChecker.swift; sourceTree = "<group>"; };
+		724A570127C382DC00D7E198 /* EmulatorDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmulatorDetector.swift; sourceTree = "<group>"; };
+		72686223877EFF8358820ED6B7A46D6C /* Pods-JailBreakDetector_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JailBreakDetector_Example-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78B5E16C8785DC0CBDF445EA4C0EE1A9 /* JailBreakDetector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JailBreakDetector.debug.xcconfig; sourceTree = "<group>"; };
+		7A9B11AC8F9ACCBA3597E78EC38F476C /* Pods-JailBreakDetector_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JailBreakDetector_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7B350512A399EB4615390DFF77870992 /* Pods-JailBreakDetector_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JailBreakDetector_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8288A398085C55FB2A2EB850D97FE719 /* JailBreakDetector-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JailBreakDetector-Info.plist"; sourceTree = "<group>"; };
+		82BDE1A3A6B8EA33240195A9D9201927 /* Pods-JailBreakDetector_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JailBreakDetector_Example"; path = Pods_JailBreakDetector_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9690B5FCA666B223F617A1C19C630A /* Pods-JailBreakDetector_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JailBreakDetector_Example-Info.plist"; sourceTree = "<group>"; };
+		95B4A36E2AF1C47281CB93976E4810E6 /* Pods-JailBreakDetector_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JailBreakDetector_Tests-dummy.m"; sourceTree = "<group>"; };
+		9770438FDC415749EBF662077EE4E8E9 /* JailBreakDetector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JailBreakDetector-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB9840EDF50F8487B1D3D02BA6456DF5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B0CB578B05685BC923BC4BB85A37B6C1 /* Pods-JailBreakDetector_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JailBreakDetector_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0DFF18B380988BB65CD68AA42BC684B /* Pods-JailBreakDetector_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JailBreakDetector_Tests-Info.plist"; sourceTree = "<group>"; };
+		B75FAD78EC10C59C7D3587B2FDEA3CC9 /* Pods-JailBreakDetector_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JailBreakDetector_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BB1FB34337DF6A775D04E357A9ABA11F /* Pods-JailBreakDetector_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JailBreakDetector_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BFA6835B4B55F45086E6E683AF9AABA1 /* Pods-JailBreakDetector_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JailBreakDetector_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C4AFED67B08F19EAC7750CFCBB09D0D2 /* Pods-JailBreakDetector_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JailBreakDetector_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CA8C126A5F0DD40AB070BAF12CF5DBF2 /* Pods-JailBreakDetector_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JailBreakDetector_Tests.modulemap"; sourceTree = "<group>"; };
+		CFC80C554BA85D50ED8DECEE80759F64 /* Pods-JailBreakDetector_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JailBreakDetector_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D0F8E0BA57EA093FE48D3B5F6DB0AF10 /* Pods-JailBreakDetector_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JailBreakDetector_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D6AB8FFBBA91B8888E9C2DA05BA2B367 /* JailBreakDetector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JailBreakDetector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEDC7368F85025B25735CA4BA29CB8A1 /* Pods-JailBreakDetector_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JailBreakDetector_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FCF88CA2770F32AA5E0E162D81BF08FC /* Pods-JailBreakDetector_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JailBreakDetector_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		137739C3C93D97BB7A25CC714C69DDE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21C96527E8E081EC3F92923C17F16E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DACE8585CF3F275AE0F089698BC189E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CE1608B69A17335E5A9AAD5E7AA180 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D42F0C42233F55FE1D66808B75424146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55E1F053A5D3C932D2851FC2DA07AE8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52EF6531B52EB3F76E6C9B7ABEDB69E1 /* Pods-JailBreakDetector_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CA8C126A5F0DD40AB070BAF12CF5DBF2 /* Pods-JailBreakDetector_Tests.modulemap */,
+				B75FAD78EC10C59C7D3587B2FDEA3CC9 /* Pods-JailBreakDetector_Tests-acknowledgements.markdown */,
+				CFC80C554BA85D50ED8DECEE80759F64 /* Pods-JailBreakDetector_Tests-acknowledgements.plist */,
+				95B4A36E2AF1C47281CB93976E4810E6 /* Pods-JailBreakDetector_Tests-dummy.m */,
+				B0DFF18B380988BB65CD68AA42BC684B /* Pods-JailBreakDetector_Tests-Info.plist */,
+				7A9B11AC8F9ACCBA3597E78EC38F476C /* Pods-JailBreakDetector_Tests-umbrella.h */,
+				B0CB578B05685BC923BC4BB85A37B6C1 /* Pods-JailBreakDetector_Tests.debug.xcconfig */,
+				BB1FB34337DF6A775D04E357A9ABA11F /* Pods-JailBreakDetector_Tests.release.xcconfig */,
+			);
+			name = "Pods-JailBreakDetector_Tests";
+			path = "Target Support Files/Pods-JailBreakDetector_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5ABF0E06DFCD95A2D29724E7B7676B71 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				467B890C5506E22C1132BCBE86D04716 /* JailBreakDetector.podspec */,
+				24EEFCC2ECA6E0466E33A4F198B54AE5 /* LICENSE */,
+				AB9840EDF50F8487B1D3D02BA6456DF5 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5BE3F8573A4E9E52B7318D4EE9621684 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				652C0634271DD048122A64B52A8F3F11 /* JailBreakDetector.modulemap */,
+				5E19497BCAB9F9A34A96FD26DEF6DA56 /* JailBreakDetector-dummy.m */,
+				8288A398085C55FB2A2EB850D97FE719 /* JailBreakDetector-Info.plist */,
+				1CDEFE93D912494846B67B74D30709FB /* JailBreakDetector-prefix.pch */,
+				9770438FDC415749EBF662077EE4E8E9 /* JailBreakDetector-umbrella.h */,
+				78B5E16C8785DC0CBDF445EA4C0EE1A9 /* JailBreakDetector.debug.xcconfig */,
+				08B680E3DF2C00F1BCB94A2C8412BD53 /* JailBreakDetector.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JailBreakDetector";
+			sourceTree = "<group>";
+		};
+		6718086CA2046F4A70E93FCAF49572E7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BCC781339AC027D62D64693EC94CCEA /* JailBreakDetector */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		724A56F727C3799D00D7E198 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				724A570127C382DC00D7E198 /* EmulatorDetector.swift */,
+				724A570027C382DB00D7E198 /* iOSSecurityChecker.swift */,
+				724A56FB27C37B2C00D7E198 /* JailBreakDetector.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9BCC781339AC027D62D64693EC94CCEA /* JailBreakDetector */ = {
+			isa = PBXGroup;
+			children = (
+				724A56F727C3799D00D7E198 /* Classes */,
+				5ABF0E06DFCD95A2D29724E7B7676B71 /* Pod */,
+				5BE3F8573A4E9E52B7318D4EE9621684 /* Support Files */,
+			);
+			name = JailBreakDetector;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6718086CA2046F4A70E93FCAF49572E7 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E3E875C1D83C75D56A6D4D0F426097AA /* Products */,
+				DEA87C4A8A80BD8AD1ACA24A7DD7F3A7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEA87C4A8A80BD8AD1ACA24A7DD7F3A7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E93D52B4C83E5C9DFB7187968C0F9883 /* Pods-JailBreakDetector_Example */,
+				52EF6531B52EB3F76E6C9B7ABEDB69E1 /* Pods-JailBreakDetector_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E3E875C1D83C75D56A6D4D0F426097AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6AB8FFBBA91B8888E9C2DA05BA2B367 /* JailBreakDetector.framework */,
+				82BDE1A3A6B8EA33240195A9D9201927 /* Pods-JailBreakDetector_Example */,
+				648928DBC865790C23AE7B685401CA22 /* Pods-JailBreakDetector_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E93D52B4C83E5C9DFB7187968C0F9883 /* Pods-JailBreakDetector_Example */ = {
+			isa = PBXGroup;
+			children = (
+				573CF20F2F07D17A3324EA440059E80F /* Pods-JailBreakDetector_Example.modulemap */,
+				7B350512A399EB4615390DFF77870992 /* Pods-JailBreakDetector_Example-acknowledgements.markdown */,
+				BFA6835B4B55F45086E6E683AF9AABA1 /* Pods-JailBreakDetector_Example-acknowledgements.plist */,
+				72686223877EFF8358820ED6B7A46D6C /* Pods-JailBreakDetector_Example-dummy.m */,
+				C4AFED67B08F19EAC7750CFCBB09D0D2 /* Pods-JailBreakDetector_Example-frameworks.sh */,
+				8D9690B5FCA666B223F617A1C19C630A /* Pods-JailBreakDetector_Example-Info.plist */,
+				FCF88CA2770F32AA5E0E162D81BF08FC /* Pods-JailBreakDetector_Example-umbrella.h */,
+				D0F8E0BA57EA093FE48D3B5F6DB0AF10 /* Pods-JailBreakDetector_Example.debug.xcconfig */,
+				EEDC7368F85025B25735CA4BA29CB8A1 /* Pods-JailBreakDetector_Example.release.xcconfig */,
+			);
+			name = "Pods-JailBreakDetector_Example";
+			path = "Target Support Files/Pods-JailBreakDetector_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		26123AAFC89D36506675C841D1253C00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D0F256A10DB047FD7280BA1DC5116E /* Pods-JailBreakDetector_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EC1C7A4019CA08D4964BC80033862B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F8D994B290C170DFCB190F58C71E75 /* JailBreakDetector-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5EB629026E7F80EB0BB552DD16CBD7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4F4177E36DD6996135A40FFB863820 /* Pods-JailBreakDetector_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15D1333EE173EAAC6F6833C984011833 /* Pods-JailBreakDetector_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9ABC797269088DF4D0DA7213F6A0E24 /* Build configuration list for PBXNativeTarget "Pods-JailBreakDetector_Example" */;
+			buildPhases = (
+				ED5EB629026E7F80EB0BB552DD16CBD7 /* Headers */,
+				987A76596894C469221FCC7321BAFF23 /* Sources */,
+				137739C3C93D97BB7A25CC714C69DDE7 /* Frameworks */,
+				934B3154B7D35EF68A90871D50981577 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DEB696B37E37AC3C6D4A3AA3AF82301 /* PBXTargetDependency */,
+			);
+			name = "Pods-JailBreakDetector_Example";
+			productName = Pods_JailBreakDetector_Example;
+			productReference = 82BDE1A3A6B8EA33240195A9D9201927 /* Pods-JailBreakDetector_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		2F117075F30304F965239E66468389E5 /* Pods-JailBreakDetector_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B345ACE45775BA79338CF327006FC3 /* Build configuration list for PBXNativeTarget "Pods-JailBreakDetector_Tests" */;
+			buildPhases = (
+				26123AAFC89D36506675C841D1253C00 /* Headers */,
+				2DB7C988DAF904C7F107F1C95DBAEAB0 /* Sources */,
+				D42F0C42233F55FE1D66808B75424146 /* Frameworks */,
+				25DCB1C38466FD79E8562EE92A7E78AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C9B9A8A4377ABFD3F02257EE0412EFF /* PBXTargetDependency */,
+			);
+			name = "Pods-JailBreakDetector_Tests";
+			productName = Pods_JailBreakDetector_Tests;
+			productReference = 648928DBC865790C23AE7B685401CA22 /* Pods-JailBreakDetector_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2B0B8D6CB5F4D02E341E9374D4841C9 /* JailBreakDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88FF6E93A857BF3079F512115FAAED59 /* Build configuration list for PBXNativeTarget "JailBreakDetector" */;
+			buildPhases = (
+				48EC1C7A4019CA08D4964BC80033862B /* Headers */,
+				87F3D8CB548ED47EF83BD140BD2C22D0 /* Sources */,
+				7DACE8585CF3F275AE0F089698BC189E /* Frameworks */,
+				1E8079BA87AB1B297B7650472C71EB9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JailBreakDetector;
+			productName = JailBreakDetector;
+			productReference = D6AB8FFBBA91B8888E9C2DA05BA2B367 /* JailBreakDetector.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B2B0B8D6CB5F4D02E341E9374D4841C9 = {
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E3E875C1D83C75D56A6D4D0F426097AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2B0B8D6CB5F4D02E341E9374D4841C9 /* JailBreakDetector */,
+				15D1333EE173EAAC6F6833C984011833 /* Pods-JailBreakDetector_Example */,
+				2F117075F30304F965239E66468389E5 /* Pods-JailBreakDetector_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E8079BA87AB1B297B7650472C71EB9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25DCB1C38466FD79E8562EE92A7E78AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934B3154B7D35EF68A90871D50981577 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DB7C988DAF904C7F107F1C95DBAEAB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F449032CE879F7F57257775C4D34448 /* Pods-JailBreakDetector_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F3D8CB548ED47EF83BD140BD2C22D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724A570327C382DC00D7E198 /* EmulatorDetector.swift in Sources */,
+				FF4441B1F0B43A6CBA5E5BBD860DD243 /* JailBreakDetector-dummy.m in Sources */,
+				724A570227C382DC00D7E198 /* iOSSecurityChecker.swift in Sources */,
+				724A56FC27C37B2C00D7E198 /* JailBreakDetector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987A76596894C469221FCC7321BAFF23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDE5EB510A396F22DE0AE9172EC2CE4 /* Pods-JailBreakDetector_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DEB696B37E37AC3C6D4A3AA3AF82301 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JailBreakDetector;
+			target = B2B0B8D6CB5F4D02E341E9374D4841C9 /* JailBreakDetector */;
+			targetProxy = DC3A56DE1F1A61A722AE682397B1D8F8 /* PBXContainerItemProxy */;
+		};
+		8C9B9A8A4377ABFD3F02257EE0412EFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JailBreakDetector_Example";
+			target = 15D1333EE173EAAC6F6833C984011833 /* Pods-JailBreakDetector_Example */;
+			targetProxy = C3C95B5E974574D99B8A03044881A0F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		28980F3EFA59AC0CEF4DACA8F69A9489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0CB578B05685BC923BC4BB85A37B6C1 /* Pods-JailBreakDetector_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JailBreakDetector_Tests/Pods-JailBreakDetector_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JailBreakDetector_Tests/Pods-JailBreakDetector_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32E333B50BFF5496EF4599EE653A0C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B680E3DF2C00F1BCB94A2C8412BD53 /* JailBreakDetector.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JailBreakDetector/JailBreakDetector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JailBreakDetector/JailBreakDetector-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JailBreakDetector/JailBreakDetector.modulemap";
+				PRODUCT_MODULE_NAME = JailBreakDetector;
+				PRODUCT_NAME = JailBreakDetector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56EBFED10284C789878C5C81A5D5D5E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F8E0BA57EA093FE48D3B5F6DB0AF10 /* Pods-JailBreakDetector_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JailBreakDetector_Example/Pods-JailBreakDetector_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JailBreakDetector_Example/Pods-JailBreakDetector_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5BB3A7BFC9E47586240C72491C9058A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB1FB34337DF6A775D04E357A9ABA11F /* Pods-JailBreakDetector_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JailBreakDetector_Tests/Pods-JailBreakDetector_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JailBreakDetector_Tests/Pods-JailBreakDetector_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D4A15D1B83B15F5A5FE0746B95F5EA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEDC7368F85025B25735CA4BA29CB8A1 /* Pods-JailBreakDetector_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JailBreakDetector_Example/Pods-JailBreakDetector_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JailBreakDetector_Example/Pods-JailBreakDetector_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DCC17389BF04DCC4F25A225AC803B8E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78B5E16C8785DC0CBDF445EA4C0EE1A9 /* JailBreakDetector.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JailBreakDetector/JailBreakDetector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JailBreakDetector/JailBreakDetector-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JailBreakDetector/JailBreakDetector.modulemap";
+				PRODUCT_MODULE_NAME = JailBreakDetector;
+				PRODUCT_NAME = JailBreakDetector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02B345ACE45775BA79338CF327006FC3 /* Build configuration list for PBXNativeTarget "Pods-JailBreakDetector_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28980F3EFA59AC0CEF4DACA8F69A9489 /* Debug */,
+				5BB3A7BFC9E47586240C72491C9058A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88FF6E93A857BF3079F512115FAAED59 /* Build configuration list for PBXNativeTarget "JailBreakDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC17389BF04DCC4F25A225AC803B8E3 /* Debug */,
+				32E333B50BFF5496EF4599EE653A0C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9ABC797269088DF4D0DA7213F6A0E24 /* Build configuration list for PBXNativeTarget "Pods-JailBreakDetector_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56EBFED10284C789878C5C81A5D5D5E0 /* Debug */,
+				D4A15D1B83B15F5A5FE0746B95F5EA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

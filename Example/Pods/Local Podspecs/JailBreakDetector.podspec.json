@@ -1,0 +1,22 @@
+{
+  "name": "JailBreakDetector",
+  "version": "0.1.0",
+  "summary": "A short description of JailBreakDetector.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shoeb-curogram/JailBreakDetector",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shoeb-curogram": "shoeb@xam.com.au"
+  },
+  "source": {
+    "git": "https://github.com/shoeb-curogram/JailBreakDetector.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JailBreakDetector/Classes/**/*"
+}

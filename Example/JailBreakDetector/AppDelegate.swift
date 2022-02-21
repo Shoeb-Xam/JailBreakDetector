@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  JailBreakDetector
 //
-//  Created by shoeb-curogram on 02/21/2022.
-//  Copyright (c) 2022 shoeb-curogram. All rights reserved.
+//  Created by Shoeb on 02/21/2022.
+//  Copyright (c) 2022 Shoeb All rights reserved.
 //
 
 import UIKit

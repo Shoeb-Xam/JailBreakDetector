@@ -1,0 +1,16 @@
+PODS:
+  - JailBreakDetector (0.1.0)
+
+DEPENDENCIES:
+  - JailBreakDetector (from `../`)
+
+EXTERNAL SOURCES:
+  JailBreakDetector:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JailBreakDetector: 314684f9f85f1d0e56ecb873fe5cb32c972e8702
+
+PODFILE CHECKSUM: ddc84e816d990c2cc4dc4d8bd66bbe6c4d49868c
+
+COCOAPODS: 1.11.2
