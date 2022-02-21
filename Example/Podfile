@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JailBreakDetector_Example' do
+  pod 'JailBreakDetector', :path => '../'
+
+  target 'JailBreakDetector_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
