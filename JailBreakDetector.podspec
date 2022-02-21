@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  A library to detect an iOS device is jailbroken or not.  The simplest method returns True/False if you just want to know if the device is jailbroken or jailed
+  'A library to detect an iOS device is jailbroken or not.  The simplest method returns True/False if you just want to know if the device is jailbroken or jailed'
                        DESC
 
   s.homepage         = 'https://github.com/Shoeb-Xam/JailBreakDetector'
@@ -28,9 +28,15 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Shoeb-Xam/JailBreakDetector.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
 
-  s.source_files = 'JailBreakDetector/Classes/**/*'
+  s.source_files = 'Classes/**/*.swift'
+  
+  s.swift_version = '5.0'
+  
+  s.platforms = {
+      "ios": "13.0"
+  }
   
   # s.resource_bundles = {
   #   'JailBreakDetector' => ['JailBreakDetector/Assets/*.png']
